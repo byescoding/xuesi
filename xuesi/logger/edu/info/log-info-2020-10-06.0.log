@@ -1,0 +1,474 @@
+2020-10-06 00:45:17 |INFO  |http-nio-8110-exec-2 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 00:47:16 |INFO  |http-nio-8110-exec-1 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 00:47:26 |INFO  |http-nio-8110-exec-8 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 00:48:12 |INFO  |http-nio-8110-exec-10 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 00:48:41 |INFO  |http-nio-8110-exec-9 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 00:53:08 |INFO  |lettuce-nioEventLoop-4-1 |AbstractInternalLogger.java:219 |io.lettuce.core.protocol.CommandHandler |[channel=0xe3f90bc0, /127.0.0.1:50421 -> localhost/127.0.0.1:6379, chid=0x1] Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-10-06 00:53:08 |INFO  |lettuce-nioEventLoop-4-2 |AbstractInternalLogger.java:219 |io.lettuce.core.protocol.CommandHandler |[channel=0x593226ef, /127.0.0.1:50433 -> localhost/127.0.0.1:6379, chid=0x2] Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-10-06 00:53:08 |INFO  |lettuce-eventExecutorLoop-1-3 |AbstractInternalLogger.java:173 |io.lettuce.core.protocol.ConnectionWatchdog |Reconnecting, last destination was localhost/127.0.0.1:6379
+2020-10-06 00:53:08 |INFO  |lettuce-eventExecutorLoop-1-2 |AbstractInternalLogger.java:173 |io.lettuce.core.protocol.ConnectionWatchdog |Reconnecting, last destination was localhost/127.0.0.1:6379
+2020-10-06 00:53:15 |INFO  |lettuce-eventExecutorLoop-1-4 |AbstractInternalLogger.java:173 |io.lettuce.core.protocol.ConnectionWatchdog |Reconnecting, last destination was localhost:6379
+2020-10-06 00:53:15 |INFO  |lettuce-eventExecutorLoop-1-1 |AbstractInternalLogger.java:173 |io.lettuce.core.protocol.ConnectionWatchdog |Reconnecting, last destination was localhost:6379
+2020-10-06 08:43:47 |INFO  |main |SpringApplication.java:655 |com.bai.guli.service.college.ServiceEduApplication |The following profiles are active: dev
+2020-10-06 08:43:49 |INFO  |main |RepositoryConfigurationDelegate.java:249 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-06 08:43:49 |INFO  |main |RepositoryConfigurationDelegate.java:127 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-06 08:43:49 |INFO  |main |RepositoryConfigurationDelegate.java:187 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Finished Spring Data repository scanning in 60ms. Found 0 Redis repository interfaces.
+2020-10-06 08:43:50 |INFO  |main |GenericScope.java:295 |org.springframework.cloud.context.scope.GenericScope |BeanFactory id=7178442b-752b-3163-b032-b91ee9c44d8e
+2020-10-06 08:43:50 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 08:43:51 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 08:43:51 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$ec23d63] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 08:43:51 |INFO  |main |TomcatWebServer.java:92 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat initialized with port(s): 8110 (http)
+2020-10-06 08:43:51 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Initializing ProtocolHandler ["http-nio-8110"]
+2020-10-06 08:43:51 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardService |Starting service [Tomcat]
+2020-10-06 08:43:51 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardEngine |Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-10-06 08:43:51 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-10-06 08:43:51 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-10-06 08:43:51 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-10-06 08:43:51 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-10-06 08:43:51 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-10-06 08:43:51 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] |Initializing Spring embedded WebApplicationContext
+2020-10-06 08:43:51 |INFO  |main |ServletWebServerApplicationContext.java:284 |org.springframework.web.context.ContextLoader |Root WebApplicationContext: initialization completed in 4309 ms
+2020-10-06 08:43:51 |INFO  |main |SentinelWebAutoConfiguration.java:96 |com.alibaba.cloud.sentinel.SentinelWebAutoConfiguration |[Sentinel Starter] register Sentinel CommonFilter with urlPatterns: [/*].
+2020-10-06 08:43:55 |INFO  |main |PropertySourcedRequestMappingHandlerMapping.java:69 |springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping |Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-06 08:43:55 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-06 08:43:55 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-06 08:43:55 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor |Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-06 08:43:56 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler |Initializing ExecutorService
+2020-10-06 08:43:56 |INFO  |main |EpollProvider.java:68 |io.lettuce.core.EpollProvider |Starting without optional epoll library
+2020-10-06 08:43:56 |INFO  |main |KqueueProvider.java:70 |io.lettuce.core.KqueueProvider |Starting without optional kqueue library
+2020-10-06 08:43:58 |INFO  |main |DocumentationPluginsBootstrapper.java:147 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Context refreshed
+2020-10-06 08:43:58 |INFO  |main |DocumentationPluginsBootstrapper.java:150 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Found 2 custom documentation plugin(s)
+2020-10-06 08:43:58 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-06 08:43:58 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: listPageUsingGET_1
+2020-10-06 08:43:58 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: removeTeacherByIdUsingDELETE_1
+2020-10-06 08:43:58 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: getByIdUsingGET_1
+2020-10-06 08:43:58 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: removeByIdUsingDELETE_1
+2020-10-06 08:43:58 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: saveUsingPOST_1
+2020-10-06 08:43:58 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: updateByIdUsingPUT_1
+2020-10-06 08:43:58 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-06 08:43:58 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: getByIdUsingGET_2
+2020-10-06 08:43:58 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: getNestedListUsingGET_1
+2020-10-06 08:43:58 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: getTeacgerByIdUsingGET_1
+2020-10-06 08:43:58 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: listTeachersUsingGET_1
+2020-10-06 08:43:59 |INFO  |main |ScheduledAnnotationBeanPostProcessor.java:297 |org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor |No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-10-06 08:43:59 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Starting ProtocolHandler ["http-nio-8110"]
+2020-10-06 08:43:59 |INFO  |main |TomcatWebServer.java:204 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat started on port(s): 8110 (http) with context path ''
+2020-10-06 08:43:59 |INFO  |main |NacosServiceRegistry.java:62 |com.alibaba.cloud.nacos.registry.NacosServiceRegistry |nacos registry, service-edu 192.168.0.101:8110 register finished
+2020-10-06 08:44:00 |INFO  |main |StartupInfoLogger.java:61 |com.bai.guli.service.college.ServiceEduApplication |Started ServiceEduApplication in 16.535 seconds (JVM running for 18.052)
+2020-10-06 08:46:15 |INFO  |http-nio-8110-exec-2 |DirectJDKLog.java:173 |org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] |Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-06 08:46:15 |INFO  |http-nio-8110-exec-2 |FrameworkServlet.java:525 |org.springframework.web.servlet.DispatcherServlet |Initializing Servlet 'dispatcherServlet'
+2020-10-06 08:46:15 |INFO  |http-nio-8110-exec-2 |FrameworkServlet.java:547 |org.springframework.web.servlet.DispatcherServlet |Completed initialization in 9 ms
+2020-10-06 08:46:25 |INFO  |http-nio-8110-exec-5 |HikariDataSource.java:110 |com.zaxxer.hikari.HikariDataSource |HikariPool-1 - Starting...
+2020-10-06 08:46:26 |INFO  |http-nio-8110-exec-5 |HikariDataSource.java:123 |com.zaxxer.hikari.HikariDataSource |HikariPool-1 - Start completed.
+2020-10-06 09:46:06 |INFO  |http-nio-8110-exec-8 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 09:51:13 |INFO  |http-nio-8110-exec-9 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 09:53:55 |INFO  |http-nio-8110-exec-10 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 09:58:16 |INFO  |http-nio-8110-exec-2 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 09:59:17 |INFO  |http-nio-8110-exec-3 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 09:59:20 |INFO  |http-nio-8110-exec-4 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 10:01:02 |INFO  |http-nio-8110-exec-7 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 10:19:26 |INFO  |main |SpringApplication.java:655 |com.bai.guli.service.college.ServiceEduApplication |The following profiles are active: dev
+2020-10-06 10:19:27 |INFO  |main |RepositoryConfigurationDelegate.java:249 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-06 10:19:27 |INFO  |main |RepositoryConfigurationDelegate.java:127 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-06 10:19:27 |INFO  |main |RepositoryConfigurationDelegate.java:187 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2020-10-06 10:19:28 |INFO  |main |GenericScope.java:295 |org.springframework.cloud.context.scope.GenericScope |BeanFactory id=7178442b-752b-3163-b032-b91ee9c44d8e
+2020-10-06 10:19:28 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 10:19:28 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 10:19:28 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$c37d5b62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 10:19:28 |INFO  |main |TomcatWebServer.java:92 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat initialized with port(s): 8110 (http)
+2020-10-06 10:19:28 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Initializing ProtocolHandler ["http-nio-8110"]
+2020-10-06 10:19:28 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardService |Starting service [Tomcat]
+2020-10-06 10:19:28 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardEngine |Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-10-06 10:19:28 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-10-06 10:19:28 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-10-06 10:19:28 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-10-06 10:19:28 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-10-06 10:19:28 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-10-06 10:19:29 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] |Initializing Spring embedded WebApplicationContext
+2020-10-06 10:19:29 |INFO  |main |ServletWebServerApplicationContext.java:284 |org.springframework.web.context.ContextLoader |Root WebApplicationContext: initialization completed in 2113 ms
+2020-10-06 10:19:29 |INFO  |main |SentinelWebAutoConfiguration.java:96 |com.alibaba.cloud.sentinel.SentinelWebAutoConfiguration |[Sentinel Starter] register Sentinel CommonFilter with urlPatterns: [/*].
+2020-10-06 10:19:31 |INFO  |main |PropertySourcedRequestMappingHandlerMapping.java:69 |springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping |Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-06 10:19:31 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-06 10:19:31 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-06 10:19:31 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor |Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-06 10:19:32 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler |Initializing ExecutorService
+2020-10-06 10:19:32 |INFO  |main |EpollProvider.java:68 |io.lettuce.core.EpollProvider |Starting without optional epoll library
+2020-10-06 10:19:32 |INFO  |main |KqueueProvider.java:70 |io.lettuce.core.KqueueProvider |Starting without optional kqueue library
+2020-10-06 10:19:33 |INFO  |main |DocumentationPluginsBootstrapper.java:147 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Context refreshed
+2020-10-06 10:19:34 |INFO  |main |DocumentationPluginsBootstrapper.java:150 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Found 2 custom documentation plugin(s)
+2020-10-06 10:19:34 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-06 10:19:34 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: listPageUsingGET_1
+2020-10-06 10:19:34 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: removeTeacherByIdUsingDELETE_1
+2020-10-06 10:19:34 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: getByIdUsingGET_1
+2020-10-06 10:19:34 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: removeByIdUsingDELETE_1
+2020-10-06 10:19:34 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: saveUsingPOST_1
+2020-10-06 10:19:34 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: updateByIdUsingPUT_1
+2020-10-06 10:19:34 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-06 10:19:34 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: getByIdUsingGET_2
+2020-10-06 10:19:34 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: getNestedListUsingGET_1
+2020-10-06 10:19:34 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: getTeacgerByIdUsingGET_1
+2020-10-06 10:19:34 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: listTeachersUsingGET_1
+2020-10-06 10:19:34 |INFO  |main |ScheduledAnnotationBeanPostProcessor.java:297 |org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor |No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-10-06 10:19:34 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Starting ProtocolHandler ["http-nio-8110"]
+2020-10-06 10:19:34 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Pausing ProtocolHandler ["http-nio-8110"]
+2020-10-06 10:19:34 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardService |Stopping service [Tomcat]
+2020-10-06 10:19:34 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Stopping ProtocolHandler ["http-nio-8110"]
+2020-10-06 10:19:34 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Destroying ProtocolHandler ["http-nio-8110"]
+2020-10-06 10:19:34 |INFO  |main |ExecutorConfigurationSupport.java:208 |org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor |Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-06 10:21:13 |INFO  |main |SpringApplication.java:655 |com.bai.guli.service.college.ServiceEduApplication |The following profiles are active: dev
+2020-10-06 10:21:14 |INFO  |main |RepositoryConfigurationDelegate.java:249 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-06 10:21:14 |INFO  |main |RepositoryConfigurationDelegate.java:127 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-06 10:21:14 |INFO  |main |RepositoryConfigurationDelegate.java:187 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2020-10-06 10:21:14 |INFO  |main |GenericScope.java:295 |org.springframework.cloud.context.scope.GenericScope |BeanFactory id=7178442b-752b-3163-b032-b91ee9c44d8e
+2020-10-06 10:21:15 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 10:21:15 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 10:21:15 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$fe5cbb21] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 10:21:15 |INFO  |main |TomcatWebServer.java:92 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat initialized with port(s): 8110 (http)
+2020-10-06 10:21:15 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Initializing ProtocolHandler ["http-nio-8110"]
+2020-10-06 10:21:15 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardService |Starting service [Tomcat]
+2020-10-06 10:21:15 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardEngine |Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-10-06 10:21:15 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-10-06 10:21:15 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-10-06 10:21:15 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-10-06 10:21:15 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-10-06 10:21:15 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-10-06 10:21:15 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] |Initializing Spring embedded WebApplicationContext
+2020-10-06 10:21:15 |INFO  |main |ServletWebServerApplicationContext.java:284 |org.springframework.web.context.ContextLoader |Root WebApplicationContext: initialization completed in 2136 ms
+2020-10-06 10:21:15 |INFO  |main |SentinelWebAutoConfiguration.java:96 |com.alibaba.cloud.sentinel.SentinelWebAutoConfiguration |[Sentinel Starter] register Sentinel CommonFilter with urlPatterns: [/*].
+2020-10-06 10:21:17 |INFO  |main |PropertySourcedRequestMappingHandlerMapping.java:69 |springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping |Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-06 10:21:18 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-06 10:21:18 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-06 10:21:18 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor |Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-06 10:21:18 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler |Initializing ExecutorService
+2020-10-06 10:21:19 |INFO  |main |EpollProvider.java:68 |io.lettuce.core.EpollProvider |Starting without optional epoll library
+2020-10-06 10:21:19 |INFO  |main |KqueueProvider.java:70 |io.lettuce.core.KqueueProvider |Starting without optional kqueue library
+2020-10-06 10:21:20 |INFO  |main |DocumentationPluginsBootstrapper.java:147 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Context refreshed
+2020-10-06 10:21:20 |INFO  |main |DocumentationPluginsBootstrapper.java:150 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Found 2 custom documentation plugin(s)
+2020-10-06 10:21:20 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-06 10:21:21 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: listPageUsingGET_1
+2020-10-06 10:21:21 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: removeTeacherByIdUsingDELETE_1
+2020-10-06 10:21:21 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: getByIdUsingGET_1
+2020-10-06 10:21:21 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: removeByIdUsingDELETE_1
+2020-10-06 10:21:21 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: saveUsingPOST_1
+2020-10-06 10:21:21 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: updateByIdUsingPUT_1
+2020-10-06 10:21:21 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-06 10:21:21 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: getByIdUsingGET_2
+2020-10-06 10:21:21 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: getNestedListUsingGET_1
+2020-10-06 10:21:21 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: getTeacgerByIdUsingGET_1
+2020-10-06 10:21:21 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: listTeachersUsingGET_1
+2020-10-06 10:21:21 |INFO  |main |ScheduledAnnotationBeanPostProcessor.java:297 |org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor |No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-10-06 10:21:21 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Starting ProtocolHandler ["http-nio-8110"]
+2020-10-06 10:21:21 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Pausing ProtocolHandler ["http-nio-8110"]
+2020-10-06 10:21:21 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardService |Stopping service [Tomcat]
+2020-10-06 10:21:21 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Stopping ProtocolHandler ["http-nio-8110"]
+2020-10-06 10:21:21 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Destroying ProtocolHandler ["http-nio-8110"]
+2020-10-06 10:21:21 |INFO  |main |ExecutorConfigurationSupport.java:208 |org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor |Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-06 10:21:50 |INFO  |main |SpringApplication.java:655 |com.bai.guli.service.college.ServiceEduApplication |The following profiles are active: dev
+2020-10-06 10:21:51 |INFO  |main |RepositoryConfigurationDelegate.java:249 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-06 10:21:51 |INFO  |main |RepositoryConfigurationDelegate.java:127 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-06 10:21:51 |INFO  |main |RepositoryConfigurationDelegate.java:187 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces.
+2020-10-06 10:21:52 |INFO  |main |GenericScope.java:295 |org.springframework.cloud.context.scope.GenericScope |BeanFactory id=7178442b-752b-3163-b032-b91ee9c44d8e
+2020-10-06 10:21:52 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 10:21:52 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 10:21:52 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$50a40ecf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 10:21:52 |INFO  |main |TomcatWebServer.java:92 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat initialized with port(s): 8110 (http)
+2020-10-06 10:21:52 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Initializing ProtocolHandler ["http-nio-8110"]
+2020-10-06 10:21:52 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardService |Starting service [Tomcat]
+2020-10-06 10:21:52 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardEngine |Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-10-06 10:21:52 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-10-06 10:21:52 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-10-06 10:21:52 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-10-06 10:21:52 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-10-06 10:21:52 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-10-06 10:21:53 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] |Initializing Spring embedded WebApplicationContext
+2020-10-06 10:21:53 |INFO  |main |ServletWebServerApplicationContext.java:284 |org.springframework.web.context.ContextLoader |Root WebApplicationContext: initialization completed in 2063 ms
+2020-10-06 10:21:53 |INFO  |main |SentinelWebAutoConfiguration.java:96 |com.alibaba.cloud.sentinel.SentinelWebAutoConfiguration |[Sentinel Starter] register Sentinel CommonFilter with urlPatterns: [/*].
+2020-10-06 10:21:55 |INFO  |main |PropertySourcedRequestMappingHandlerMapping.java:69 |springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping |Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-06 10:21:55 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-06 10:21:55 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-06 10:21:55 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor |Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-06 10:21:56 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler |Initializing ExecutorService
+2020-10-06 10:21:56 |INFO  |main |EpollProvider.java:68 |io.lettuce.core.EpollProvider |Starting without optional epoll library
+2020-10-06 10:21:56 |INFO  |main |KqueueProvider.java:70 |io.lettuce.core.KqueueProvider |Starting without optional kqueue library
+2020-10-06 10:21:58 |INFO  |main |DocumentationPluginsBootstrapper.java:147 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Context refreshed
+2020-10-06 10:21:58 |INFO  |main |DocumentationPluginsBootstrapper.java:150 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Found 2 custom documentation plugin(s)
+2020-10-06 10:21:58 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-06 10:21:58 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: listPageUsingGET_1
+2020-10-06 10:21:58 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: removeTeacherByIdUsingDELETE_1
+2020-10-06 10:21:58 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: getByIdUsingGET_1
+2020-10-06 10:21:58 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: removeByIdUsingDELETE_1
+2020-10-06 10:21:58 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: saveUsingPOST_1
+2020-10-06 10:21:58 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: updateByIdUsingPUT_1
+2020-10-06 10:21:59 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-06 10:21:59 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: getByIdUsingGET_2
+2020-10-06 10:21:59 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: getNestedListUsingGET_1
+2020-10-06 10:21:59 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: getTeacgerByIdUsingGET_1
+2020-10-06 10:21:59 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: listTeachersUsingGET_1
+2020-10-06 10:21:59 |INFO  |main |ScheduledAnnotationBeanPostProcessor.java:297 |org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor |No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-10-06 10:21:59 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Starting ProtocolHandler ["http-nio-8110"]
+2020-10-06 10:21:59 |INFO  |main |TomcatWebServer.java:204 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat started on port(s): 8110 (http) with context path ''
+2020-10-06 10:21:59 |INFO  |main |NacosServiceRegistry.java:62 |com.alibaba.cloud.nacos.registry.NacosServiceRegistry |nacos registry, service-edu 192.168.0.101:8110 register finished
+2020-10-06 10:22:00 |INFO  |main |StartupInfoLogger.java:61 |com.bai.guli.service.college.ServiceEduApplication |Started ServiceEduApplication in 11.515 seconds (JVM running for 12.541)
+2020-10-06 10:22:31 |INFO  |http-nio-8110-exec-1 |DirectJDKLog.java:173 |org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] |Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-06 10:22:31 |INFO  |http-nio-8110-exec-1 |FrameworkServlet.java:525 |org.springframework.web.servlet.DispatcherServlet |Initializing Servlet 'dispatcherServlet'
+2020-10-06 10:22:31 |INFO  |http-nio-8110-exec-1 |FrameworkServlet.java:547 |org.springframework.web.servlet.DispatcherServlet |Completed initialization in 9 ms
+2020-10-06 10:22:59 |INFO  |http-nio-8110-exec-1 |HikariDataSource.java:110 |com.zaxxer.hikari.HikariDataSource |HikariPool-1 - Starting...
+2020-10-06 10:22:59 |INFO  |http-nio-8110-exec-1 |HikariDataSource.java:123 |com.zaxxer.hikari.HikariDataSource |HikariPool-1 - Start completed.
+2020-10-06 11:42:37 |INFO  |http-nio-8110-exec-5 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 11:44:29 |INFO  |http-nio-8110-exec-7 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 11:53:17 |INFO  |http-nio-8110-exec-8 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 12:23:04 |INFO  |http-nio-8110-exec-4 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 19:31:09 |INFO  |main |SpringApplication.java:655 |com.bai.guli.service.college.ServiceEduApplication |The following profiles are active: dev
+2020-10-06 19:31:10 |INFO  |main |RepositoryConfigurationDelegate.java:249 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-06 19:31:10 |INFO  |main |RepositoryConfigurationDelegate.java:127 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-06 19:31:10 |INFO  |main |RepositoryConfigurationDelegate.java:187 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces.
+2020-10-06 19:31:10 |INFO  |main |GenericScope.java:295 |org.springframework.cloud.context.scope.GenericScope |BeanFactory id=7968d659-349f-376d-a761-0a4071f247a4
+2020-10-06 19:31:10 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 19:31:11 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 19:31:11 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$f40a126] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 19:31:11 |INFO  |main |TomcatWebServer.java:92 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat initialized with port(s): 8110 (http)
+2020-10-06 19:31:11 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Initializing ProtocolHandler ["http-nio-8110"]
+2020-10-06 19:31:11 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardService |Starting service [Tomcat]
+2020-10-06 19:31:11 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardEngine |Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-10-06 19:31:11 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-10-06 19:31:11 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-10-06 19:31:11 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-10-06 19:31:11 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-10-06 19:31:11 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-10-06 19:31:11 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] |Initializing Spring embedded WebApplicationContext
+2020-10-06 19:31:11 |INFO  |main |ServletWebServerApplicationContext.java:284 |org.springframework.web.context.ContextLoader |Root WebApplicationContext: initialization completed in 2196 ms
+2020-10-06 19:31:11 |INFO  |main |SentinelWebAutoConfiguration.java:96 |com.alibaba.cloud.sentinel.SentinelWebAutoConfiguration |[Sentinel Starter] register Sentinel CommonFilter with urlPatterns: [/*].
+2020-10-06 19:31:13 |INFO  |main |PropertySourcedRequestMappingHandlerMapping.java:69 |springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping |Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-06 19:31:13 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-06 19:31:13 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-06 19:31:14 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor |Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-06 19:31:14 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler |Initializing ExecutorService
+2020-10-06 19:31:15 |INFO  |main |EpollProvider.java:68 |io.lettuce.core.EpollProvider |Starting without optional epoll library
+2020-10-06 19:31:15 |INFO  |main |KqueueProvider.java:70 |io.lettuce.core.KqueueProvider |Starting without optional kqueue library
+2020-10-06 19:31:16 |INFO  |main |DocumentationPluginsBootstrapper.java:147 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Context refreshed
+2020-10-06 19:31:16 |INFO  |main |DocumentationPluginsBootstrapper.java:150 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Found 2 custom documentation plugin(s)
+2020-10-06 19:31:16 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-06 19:31:17 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: listPageUsingGET_1
+2020-10-06 19:31:17 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: removeTeacherByIdUsingDELETE_1
+2020-10-06 19:31:17 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: getByIdUsingGET_1
+2020-10-06 19:31:17 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: removeByIdUsingDELETE_1
+2020-10-06 19:31:17 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: saveUsingPOST_1
+2020-10-06 19:31:17 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: updateByIdUsingPUT_1
+2020-10-06 19:31:17 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-06 19:31:17 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: saveUsingPOST_2
+2020-10-06 19:31:17 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: getByIdUsingGET_2
+2020-10-06 19:31:17 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: getNestedListUsingGET_1
+2020-10-06 19:31:17 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: getTeacgerByIdUsingGET_1
+2020-10-06 19:31:17 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: listTeachersUsingGET_1
+2020-10-06 19:31:17 |INFO  |main |ScheduledAnnotationBeanPostProcessor.java:297 |org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor |No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-10-06 19:31:17 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Starting ProtocolHandler ["http-nio-8110"]
+2020-10-06 19:31:17 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Pausing ProtocolHandler ["http-nio-8110"]
+2020-10-06 19:31:17 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardService |Stopping service [Tomcat]
+2020-10-06 19:31:17 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Stopping ProtocolHandler ["http-nio-8110"]
+2020-10-06 19:31:17 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Destroying ProtocolHandler ["http-nio-8110"]
+2020-10-06 19:31:17 |INFO  |main |ExecutorConfigurationSupport.java:208 |org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor |Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-06 19:34:34 |INFO  |main |SpringApplication.java:655 |com.bai.guli.service.college.ServiceEduApplication |The following profiles are active: dev
+2020-10-06 19:34:35 |INFO  |main |RepositoryConfigurationDelegate.java:249 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-06 19:34:35 |INFO  |main |RepositoryConfigurationDelegate.java:127 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-06 19:34:35 |INFO  |main |RepositoryConfigurationDelegate.java:187 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces.
+2020-10-06 19:34:35 |INFO  |main |GenericScope.java:295 |org.springframework.cloud.context.scope.GenericScope |BeanFactory id=7968d659-349f-376d-a761-0a4071f247a4
+2020-10-06 19:34:36 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 19:34:36 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 19:34:36 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$a92a04ac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 19:34:36 |INFO  |main |TomcatWebServer.java:92 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat initialized with port(s): 8110 (http)
+2020-10-06 19:34:36 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Initializing ProtocolHandler ["http-nio-8110"]
+2020-10-06 19:34:36 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardService |Starting service [Tomcat]
+2020-10-06 19:34:36 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardEngine |Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-10-06 19:34:36 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-10-06 19:34:36 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-10-06 19:34:36 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-10-06 19:34:36 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-10-06 19:34:36 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-10-06 19:34:36 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] |Initializing Spring embedded WebApplicationContext
+2020-10-06 19:34:36 |INFO  |main |ServletWebServerApplicationContext.java:284 |org.springframework.web.context.ContextLoader |Root WebApplicationContext: initialization completed in 2015 ms
+2020-10-06 19:34:36 |INFO  |main |SentinelWebAutoConfiguration.java:96 |com.alibaba.cloud.sentinel.SentinelWebAutoConfiguration |[Sentinel Starter] register Sentinel CommonFilter with urlPatterns: [/*].
+2020-10-06 19:34:38 |INFO  |main |PropertySourcedRequestMappingHandlerMapping.java:69 |springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping |Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-06 19:34:38 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-06 19:34:38 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-06 19:34:38 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor |Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-06 19:34:39 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler |Initializing ExecutorService
+2020-10-06 19:34:39 |INFO  |main |EpollProvider.java:68 |io.lettuce.core.EpollProvider |Starting without optional epoll library
+2020-10-06 19:34:39 |INFO  |main |KqueueProvider.java:70 |io.lettuce.core.KqueueProvider |Starting without optional kqueue library
+2020-10-06 19:34:41 |INFO  |main |DocumentationPluginsBootstrapper.java:147 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Context refreshed
+2020-10-06 19:34:41 |INFO  |main |DocumentationPluginsBootstrapper.java:150 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Found 2 custom documentation plugin(s)
+2020-10-06 19:34:41 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-06 19:34:41 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: listPageUsingGET_1
+2020-10-06 19:34:41 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: removeTeacherByIdUsingDELETE_1
+2020-10-06 19:34:41 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: getByIdUsingGET_1
+2020-10-06 19:34:41 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: removeByIdUsingDELETE_1
+2020-10-06 19:34:41 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: saveUsingPOST_1
+2020-10-06 19:34:41 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: updateByIdUsingPUT_1
+2020-10-06 19:34:41 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-06 19:34:42 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: saveUsingPOST_2
+2020-10-06 19:34:42 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: getByIdUsingGET_2
+2020-10-06 19:34:42 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: getNestedListUsingGET_1
+2020-10-06 19:34:42 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: getTeacgerByIdUsingGET_1
+2020-10-06 19:34:42 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: listTeachersUsingGET_1
+2020-10-06 19:34:42 |INFO  |main |ScheduledAnnotationBeanPostProcessor.java:297 |org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor |No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-10-06 19:34:42 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Starting ProtocolHandler ["http-nio-8110"]
+2020-10-06 19:34:42 |INFO  |main |TomcatWebServer.java:204 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat started on port(s): 8110 (http) with context path ''
+2020-10-06 19:34:42 |INFO  |main |NacosServiceRegistry.java:62 |com.alibaba.cloud.nacos.registry.NacosServiceRegistry |nacos registry, service-edu 192.168.0.101:8110 register finished
+2020-10-06 19:34:43 |INFO  |main |StartupInfoLogger.java:61 |com.bai.guli.service.college.ServiceEduApplication |Started ServiceEduApplication in 12.062 seconds (JVM running for 13.129)
+2020-10-06 19:34:49 |INFO  |http-nio-8110-exec-1 |DirectJDKLog.java:173 |org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] |Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-06 19:34:49 |INFO  |http-nio-8110-exec-1 |FrameworkServlet.java:525 |org.springframework.web.servlet.DispatcherServlet |Initializing Servlet 'dispatcherServlet'
+2020-10-06 19:34:49 |INFO  |http-nio-8110-exec-1 |FrameworkServlet.java:547 |org.springframework.web.servlet.DispatcherServlet |Completed initialization in 9 ms
+2020-10-06 19:37:12 |INFO  |http-nio-8110-exec-5 |HikariDataSource.java:110 |com.zaxxer.hikari.HikariDataSource |HikariPool-1 - Starting...
+2020-10-06 19:37:12 |INFO  |http-nio-8110-exec-5 |HikariDataSource.java:123 |com.zaxxer.hikari.HikariDataSource |HikariPool-1 - Start completed.
+2020-10-06 19:37:12 |INFO  |http-nio-8110-exec-5 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 19:55:38 |INFO  |http-nio-8110-exec-10 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 19:55:38 |INFO  |http-nio-8110-exec-1 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 19:56:32 |INFO  |http-nio-8110-exec-2 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 19:56:34 |INFO  |http-nio-8110-exec-3 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 19:56:37 |INFO  |http-nio-8110-exec-6 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 19:57:46 |INFO  |http-nio-8110-exec-7 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 19:59:05 |INFO  |http-nio-8110-exec-8 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 20:03:32 |INFO  |http-nio-8110-exec-9 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 20:58:15 |INFO  |http-nio-8110-exec-10 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 21:00:25 |INFO  |http-nio-8110-exec-2 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 21:06:06 |INFO  |http-nio-8110-exec-6 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 21:06:19 |INFO  |http-nio-8110-exec-4 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 21:06:44 |INFO  |http-nio-8110-exec-5 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 21:08:37 |INFO  |http-nio-8110-exec-8 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 21:09:26 |INFO  |http-nio-8110-exec-9 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 21:10:08 |INFO  |main |SpringApplication.java:655 |com.bai.guli.service.college.ServiceEduApplication |The following profiles are active: dev
+2020-10-06 21:10:09 |INFO  |main |RepositoryConfigurationDelegate.java:249 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-06 21:10:09 |INFO  |main |RepositoryConfigurationDelegate.java:127 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-06 21:10:09 |INFO  |main |RepositoryConfigurationDelegate.java:187 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2020-10-06 21:10:09 |INFO  |main |GenericScope.java:295 |org.springframework.cloud.context.scope.GenericScope |BeanFactory id=7968d659-349f-376d-a761-0a4071f247a4
+2020-10-06 21:10:10 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 21:10:10 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 21:10:10 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$cdec2d20] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 21:10:10 |INFO  |main |TomcatWebServer.java:92 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat initialized with port(s): 8110 (http)
+2020-10-06 21:10:10 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Initializing ProtocolHandler ["http-nio-8110"]
+2020-10-06 21:10:10 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardService |Starting service [Tomcat]
+2020-10-06 21:10:10 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardEngine |Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-10-06 21:10:10 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-10-06 21:10:10 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-10-06 21:10:10 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-10-06 21:10:10 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-10-06 21:10:10 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-10-06 21:10:10 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] |Initializing Spring embedded WebApplicationContext
+2020-10-06 21:10:10 |INFO  |main |ServletWebServerApplicationContext.java:284 |org.springframework.web.context.ContextLoader |Root WebApplicationContext: initialization completed in 2036 ms
+2020-10-06 21:10:10 |INFO  |main |SentinelWebAutoConfiguration.java:96 |com.alibaba.cloud.sentinel.SentinelWebAutoConfiguration |[Sentinel Starter] register Sentinel CommonFilter with urlPatterns: [/*].
+2020-10-06 21:10:12 |INFO  |main |PropertySourcedRequestMappingHandlerMapping.java:69 |springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping |Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-06 21:10:12 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-06 21:10:12 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-06 21:10:13 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor |Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-06 21:10:13 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler |Initializing ExecutorService
+2020-10-06 21:10:13 |INFO  |main |EpollProvider.java:68 |io.lettuce.core.EpollProvider |Starting without optional epoll library
+2020-10-06 21:10:13 |INFO  |main |KqueueProvider.java:70 |io.lettuce.core.KqueueProvider |Starting without optional kqueue library
+2020-10-06 21:10:15 |INFO  |main |DocumentationPluginsBootstrapper.java:147 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Context refreshed
+2020-10-06 21:10:15 |INFO  |main |DocumentationPluginsBootstrapper.java:150 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Found 2 custom documentation plugin(s)
+2020-10-06 21:10:15 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-06 21:10:15 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: listPageUsingGET_1
+2020-10-06 21:10:15 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: removeTeacherByIdUsingDELETE_1
+2020-10-06 21:10:15 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: getByIdUsingGET_1
+2020-10-06 21:10:15 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: removeByIdUsingDELETE_1
+2020-10-06 21:10:15 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: saveUsingPOST_1
+2020-10-06 21:10:15 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: updateByIdUsingPUT_1
+2020-10-06 21:10:15 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-06 21:10:15 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: saveUsingPOST_2
+2020-10-06 21:10:15 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: getByIdUsingGET_2
+2020-10-06 21:10:15 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: getNestedListUsingGET_1
+2020-10-06 21:10:15 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: getTeacgerByIdUsingGET_1
+2020-10-06 21:10:15 |INFO  |main |CachingOperationNameGenerator.java:40 |springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator |Generating unique operation named: listTeachersUsingGET_1
+2020-10-06 21:10:16 |INFO  |main |ScheduledAnnotationBeanPostProcessor.java:297 |org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor |No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-10-06 21:10:16 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Starting ProtocolHandler ["http-nio-8110"]
+2020-10-06 21:10:16 |INFO  |main |TomcatWebServer.java:204 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat started on port(s): 8110 (http) with context path ''
+2020-10-06 21:10:16 |INFO  |main |NacosServiceRegistry.java:62 |com.alibaba.cloud.nacos.registry.NacosServiceRegistry |nacos registry, service-edu 192.168.0.101:8110 register finished
+2020-10-06 21:10:17 |INFO  |main |StartupInfoLogger.java:61 |com.bai.guli.service.college.ServiceEduApplication |Started ServiceEduApplication in 10.927 seconds (JVM running for 11.91)
+2020-10-06 21:10:36 |INFO  |http-nio-8110-exec-1 |DirectJDKLog.java:173 |org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] |Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-06 21:10:36 |INFO  |http-nio-8110-exec-1 |FrameworkServlet.java:525 |org.springframework.web.servlet.DispatcherServlet |Initializing Servlet 'dispatcherServlet'
+2020-10-06 21:10:36 |INFO  |http-nio-8110-exec-1 |FrameworkServlet.java:547 |org.springframework.web.servlet.DispatcherServlet |Completed initialization in 9 ms
+2020-10-06 21:10:36 |INFO  |http-nio-8110-exec-1 |HikariDataSource.java:110 |com.zaxxer.hikari.HikariDataSource |HikariPool-1 - Starting...
+2020-10-06 21:10:37 |INFO  |http-nio-8110-exec-1 |HikariDataSource.java:123 |com.zaxxer.hikari.HikariDataSource |HikariPool-1 - Start completed.
+2020-10-06 21:10:37 |INFO  |http-nio-8110-exec-1 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 21:12:46 |INFO  |http-nio-8110-exec-4 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 21:16:38 |INFO  |http-nio-8110-exec-9 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 21:21:34 |INFO  |http-nio-8110-exec-6 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 21:21:46 |INFO  |http-nio-8110-exec-7 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 21:23:47 |INFO  |http-nio-8110-exec-5 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 21:23:50 |INFO  |http-nio-8110-exec-10 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 21:24:28 |INFO  |http-nio-8110-exec-1 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 21:24:51 |INFO  |http-nio-8110-exec-2 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 21:28:13 |INFO  |http-nio-8110-exec-4 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 21:31:03 |INFO  |http-nio-8110-exec-9 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 21:33:54 |INFO  |http-nio-8110-exec-6 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 21:34:27 |INFO  |http-nio-8110-exec-7 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 21:39:49 |INFO  |http-nio-8110-exec-8 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 21:39:52 |INFO  |http-nio-8110-exec-10 |MyMetaObjectHandle.java:20 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start insert fill ....
+2020-10-06 21:40:12 |INFO  |http-nio-8110-exec-4 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 21:40:13 |INFO  |http-nio-8110-exec-9 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 21:40:31 |INFO  |http-nio-8110-exec-6 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 21:44:34 |INFO  |http-nio-8110-exec-8 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 21:45:04 |INFO  |http-nio-8110-exec-3 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 21:48:30 |INFO  |http-nio-8110-exec-7 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 21:48:49 |INFO  |http-nio-8110-exec-5 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 21:48:52 |INFO  |http-nio-8110-exec-10 |MyMetaObjectHandle.java:20 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start insert fill ....
+2020-10-06 21:49:05 |INFO  |http-nio-8110-exec-2 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 22:15:50 |INFO  |http-nio-8110-exec-9 |MyMetaObjectHandle.java:20 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start insert fill ....
+2020-10-06 22:33:32 |INFO  |http-nio-8110-exec-4 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 22:40:14 |INFO  |http-nio-8110-exec-9 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 22:41:41 |INFO  |http-nio-8110-exec-6 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 22:42:54 |INFO  |http-nio-8110-exec-7 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 22:43:15 |INFO  |http-nio-8110-exec-8 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 22:43:17 |INFO  |http-nio-8110-exec-5 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 22:43:18 |INFO  |http-nio-8110-exec-10 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 22:46:04 |INFO  |http-nio-8110-exec-1 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 22:59:35 |INFO  |http-nio-8110-exec-10 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 22:59:48 |INFO  |http-nio-8110-exec-2 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 23:02:33 |INFO  |http-nio-8110-exec-4 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 23:02:34 |INFO  |http-nio-8110-exec-9 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 23:05:44 |INFO  |http-nio-8110-exec-6 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 23:07:30 |INFO  |http-nio-8110-exec-7 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 23:08:02 |INFO  |http-nio-8110-exec-8 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 23:08:10 |INFO  |http-nio-8110-exec-5 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 23:08:31 |INFO  |http-nio-8110-exec-10 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 23:08:46 |INFO  |http-nio-8110-exec-1 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 23:09:33 |INFO  |http-nio-8110-exec-2 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 23:10:23 |INFO  |http-nio-8110-exec-3 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 23:12:07 |INFO  |http-nio-8110-exec-4 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 23:14:03 |INFO  |http-nio-8110-exec-9 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 23:16:31 |INFO  |http-nio-8110-exec-6 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....
+2020-10-06 23:37:59 |INFO  |http-nio-8110-exec-9 |MyMetaObjectHandle.java:27 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start update fill ....

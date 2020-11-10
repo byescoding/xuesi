@@ -1,0 +1,23 @@
+server:
+  port: 8130 # ����˿�
+
+spring:
+  profiles:
+    active: dev # ��������
+  application:
+    name: service-vod # ������
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 # nacos�����ַ
+  servlet:
+    multipart:
+      max-file-size: 1024MB # ����ϴ������ļ���С��Ĭ��1M
+      max-request-size: 1024MB # ��������ϴ������ݴ�С ��Ĭ��10M
+
+aliyun:
+  vod:
+    keyid:
+    keysecret:
+    templateGroupId:
+    workflowId: 

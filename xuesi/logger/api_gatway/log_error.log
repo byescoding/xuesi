@@ -1,0 +1,19 @@
+2020-10-08 10:44:40 |ERROR |main |LoggingFailureAnalysisReporter.java:40 |org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter |
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.cloud.gateway.routes[7].predicates[1]' to org.springframework.cloud.gateway.handler.predicate.PredicateDefinition:
+
+    Property: spring.cloud.gateway.routes[7].predicates[1]
+    Value: 
+    Origin: class path resource [application.yml]:59:14
+    Reason: failed to convert java.lang.String to org.springframework.cloud.gateway.handler.predicate.PredicateDefinition
+
+Action:
+
+Update your application's configuration
+

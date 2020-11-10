@@ -1,0 +1,393 @@
+2020-10-06 00:24:40 |INFO  |http-nio-8160-exec-2 |MyMetaObjectHandle.java:20 |com.bai.guli.service.base.handel.MyMetaObjectHandle |start insert fill ....
+2020-10-06 00:31:41 |INFO  |http-nio-8160-exec-1 |ApiWxController.java:63 |com.bai.guli.service.ucenter.controller.api.ApiWxController |生成 state = 4ebc798e-7368-47d1-84c3-65a813b531d6
+2020-10-06 00:53:08 |INFO  |lettuce-nioEventLoop-4-1 |AbstractInternalLogger.java:219 |io.lettuce.core.protocol.CommandHandler |[channel=0x579bb158, /127.0.0.1:55013 -> localhost/127.0.0.1:6379, chid=0x1] Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-10-06 00:53:08 |INFO  |lettuce-nioEventLoop-4-2 |AbstractInternalLogger.java:219 |io.lettuce.core.protocol.CommandHandler |[channel=0xe32f09d4, /127.0.0.1:55018 -> localhost/127.0.0.1:6379, chid=0x2] Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:247)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1147)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-10-06 00:53:08 |INFO  |lettuce-eventExecutorLoop-1-4 |AbstractInternalLogger.java:173 |io.lettuce.core.protocol.ConnectionWatchdog |Reconnecting, last destination was localhost/127.0.0.1:6379
+2020-10-06 00:53:08 |INFO  |lettuce-eventExecutorLoop-1-3 |AbstractInternalLogger.java:173 |io.lettuce.core.protocol.ConnectionWatchdog |Reconnecting, last destination was localhost/127.0.0.1:6379
+2020-10-06 00:53:15 |INFO  |lettuce-eventExecutorLoop-1-2 |AbstractInternalLogger.java:173 |io.lettuce.core.protocol.ConnectionWatchdog |Reconnecting, last destination was localhost:6379
+2020-10-06 00:53:15 |INFO  |lettuce-eventExecutorLoop-1-1 |AbstractInternalLogger.java:173 |io.lettuce.core.protocol.ConnectionWatchdog |Reconnecting, last destination was localhost:6379
+2020-10-06 08:43:55 |INFO  |main |SpringApplication.java:655 |com.bai.guli.service.ucenter.UcenterServiceApplication |The following profiles are active: dev
+2020-10-06 08:43:56 |INFO  |main |RepositoryConfigurationDelegate.java:249 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-06 08:43:56 |INFO  |main |RepositoryConfigurationDelegate.java:127 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-06 08:43:56 |INFO  |main |RepositoryConfigurationDelegate.java:187 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-10-06 08:43:56 |INFO  |main |GenericScope.java:295 |org.springframework.cloud.context.scope.GenericScope |BeanFactory id=a0e80641-133a-3ee5-b559-bae2b8b2efca
+2020-10-06 08:43:56 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 08:43:56 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 08:43:56 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$10162a20] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 08:43:57 |INFO  |main |TomcatWebServer.java:92 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat initialized with port(s): 8160 (http)
+2020-10-06 08:43:57 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Initializing ProtocolHandler ["http-nio-8160"]
+2020-10-06 08:43:57 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardService |Starting service [Tomcat]
+2020-10-06 08:43:57 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardEngine |Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-10-06 08:43:57 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-10-06 08:43:57 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-10-06 08:43:57 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-10-06 08:43:57 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-10-06 08:43:57 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-10-06 08:43:57 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] |Initializing Spring embedded WebApplicationContext
+2020-10-06 08:43:57 |INFO  |main |ServletWebServerApplicationContext.java:284 |org.springframework.web.context.ContextLoader |Root WebApplicationContext: initialization completed in 2030 ms
+2020-10-06 08:43:57 |INFO  |main |SentinelWebAutoConfiguration.java:96 |com.alibaba.cloud.sentinel.SentinelWebAutoConfiguration |[Sentinel Starter] register Sentinel CommonFilter with urlPatterns: [/*].
+2020-10-06 08:43:58 |INFO  |main |PropertySourcedRequestMappingHandlerMapping.java:69 |springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping |Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-06 08:43:59 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-06 08:43:59 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-06 08:43:59 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor |Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-06 08:43:59 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler |Initializing ExecutorService
+2020-10-06 08:44:00 |INFO  |main |EpollProvider.java:68 |io.lettuce.core.EpollProvider |Starting without optional epoll library
+2020-10-06 08:44:00 |INFO  |main |KqueueProvider.java:70 |io.lettuce.core.KqueueProvider |Starting without optional kqueue library
+2020-10-06 08:44:01 |INFO  |main |DocumentationPluginsBootstrapper.java:147 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Context refreshed
+2020-10-06 08:44:01 |INFO  |main |DocumentationPluginsBootstrapper.java:150 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Found 2 custom documentation plugin(s)
+2020-10-06 08:44:01 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-06 08:44:01 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-06 08:44:02 |INFO  |main |ScheduledAnnotationBeanPostProcessor.java:297 |org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor |No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-10-06 08:44:02 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Starting ProtocolHandler ["http-nio-8160"]
+2020-10-06 08:44:02 |INFO  |main |TomcatWebServer.java:204 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat started on port(s): 8160 (http) with context path ''
+2020-10-06 08:44:02 |INFO  |main |NacosServiceRegistry.java:62 |com.alibaba.cloud.nacos.registry.NacosServiceRegistry |nacos registry, service-ucenter 192.168.0.101:8160 register finished
+2020-10-06 08:44:03 |INFO  |main |StartupInfoLogger.java:61 |com.bai.guli.service.ucenter.UcenterServiceApplication |Started UcenterServiceApplication in 10.451 seconds (JVM running for 12.093)
+2020-10-06 09:45:55 |INFO  |http-nio-8160-exec-2 |DirectJDKLog.java:173 |org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] |Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-06 09:45:55 |INFO  |http-nio-8160-exec-2 |FrameworkServlet.java:525 |org.springframework.web.servlet.DispatcherServlet |Initializing Servlet 'dispatcherServlet'
+2020-10-06 09:45:55 |INFO  |http-nio-8160-exec-2 |FrameworkServlet.java:547 |org.springframework.web.servlet.DispatcherServlet |Completed initialization in 45 ms
+2020-10-06 09:45:55 |INFO  |http-nio-8160-exec-1 |HikariDataSource.java:110 |com.zaxxer.hikari.HikariDataSource |HikariPool-1 - Starting...
+2020-10-06 09:45:55 |INFO  |http-nio-8160-exec-1 |HikariDataSource.java:123 |com.zaxxer.hikari.HikariDataSource |HikariPool-1 - Start completed.
+2020-10-06 10:19:15 |INFO  |main |SpringApplication.java:655 |com.bai.guli.service.ucenter.UcenterServiceApplication |The following profiles are active: dev
+2020-10-06 10:19:16 |INFO  |main |RepositoryConfigurationDelegate.java:249 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-06 10:19:16 |INFO  |main |RepositoryConfigurationDelegate.java:127 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-06 10:19:16 |INFO  |main |RepositoryConfigurationDelegate.java:187 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-10-06 10:19:16 |INFO  |main |GenericScope.java:295 |org.springframework.cloud.context.scope.GenericScope |BeanFactory id=a0e80641-133a-3ee5-b559-bae2b8b2efca
+2020-10-06 10:19:16 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 10:19:16 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 10:19:17 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$7d03285] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 10:19:17 |INFO  |main |TomcatWebServer.java:92 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat initialized with port(s): 8160 (http)
+2020-10-06 10:19:17 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Initializing ProtocolHandler ["http-nio-8160"]
+2020-10-06 10:19:17 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardService |Starting service [Tomcat]
+2020-10-06 10:19:17 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardEngine |Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-10-06 10:19:17 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-10-06 10:19:17 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-10-06 10:19:17 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-10-06 10:19:17 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-10-06 10:19:17 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-10-06 10:19:17 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] |Initializing Spring embedded WebApplicationContext
+2020-10-06 10:19:17 |INFO  |main |ServletWebServerApplicationContext.java:284 |org.springframework.web.context.ContextLoader |Root WebApplicationContext: initialization completed in 2086 ms
+2020-10-06 10:19:17 |INFO  |main |SentinelWebAutoConfiguration.java:96 |com.alibaba.cloud.sentinel.SentinelWebAutoConfiguration |[Sentinel Starter] register Sentinel CommonFilter with urlPatterns: [/*].
+2020-10-06 10:19:19 |INFO  |main |PropertySourcedRequestMappingHandlerMapping.java:69 |springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping |Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-06 10:19:19 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-06 10:19:19 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-06 10:19:19 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor |Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-06 10:19:20 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler |Initializing ExecutorService
+2020-10-06 10:19:21 |INFO  |main |EpollProvider.java:68 |io.lettuce.core.EpollProvider |Starting without optional epoll library
+2020-10-06 10:19:21 |INFO  |main |KqueueProvider.java:70 |io.lettuce.core.KqueueProvider |Starting without optional kqueue library
+2020-10-06 10:19:23 |INFO  |main |DocumentationPluginsBootstrapper.java:147 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Context refreshed
+2020-10-06 10:19:23 |INFO  |main |DocumentationPluginsBootstrapper.java:150 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Found 2 custom documentation plugin(s)
+2020-10-06 10:19:23 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-06 10:19:23 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-06 10:19:24 |INFO  |main |ScheduledAnnotationBeanPostProcessor.java:297 |org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor |No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-10-06 10:19:24 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Starting ProtocolHandler ["http-nio-8160"]
+2020-10-06 10:19:24 |INFO  |main |TomcatWebServer.java:204 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat started on port(s): 8160 (http) with context path ''
+2020-10-06 10:19:25 |INFO  |main |NacosServiceRegistry.java:62 |com.alibaba.cloud.nacos.registry.NacosServiceRegistry |nacos registry, service-ucenter 192.168.0.101:8160 register finished
+2020-10-06 10:19:25 |INFO  |main |StartupInfoLogger.java:61 |com.bai.guli.service.ucenter.UcenterServiceApplication |Started UcenterServiceApplication in 12.892 seconds (JVM running for 13.933)
+2020-10-06 10:22:22 |INFO  |main |SpringApplication.java:655 |com.bai.guli.service.ucenter.UcenterServiceApplication |The following profiles are active: dev
+2020-10-06 10:22:23 |INFO  |main |RepositoryConfigurationDelegate.java:249 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-06 10:22:23 |INFO  |main |RepositoryConfigurationDelegate.java:127 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-06 10:22:23 |INFO  |main |RepositoryConfigurationDelegate.java:187 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-10-06 10:22:23 |INFO  |main |GenericScope.java:295 |org.springframework.cloud.context.scope.GenericScope |BeanFactory id=a0e80641-133a-3ee5-b559-bae2b8b2efca
+2020-10-06 10:22:23 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 10:22:23 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 10:22:23 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$4985ac75] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 10:22:24 |INFO  |main |TomcatWebServer.java:92 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat initialized with port(s): 8160 (http)
+2020-10-06 10:22:24 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Initializing ProtocolHandler ["http-nio-8160"]
+2020-10-06 10:22:24 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardService |Starting service [Tomcat]
+2020-10-06 10:22:24 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardEngine |Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-10-06 10:22:24 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-10-06 10:22:24 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-10-06 10:22:24 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-10-06 10:22:24 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-10-06 10:22:24 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-10-06 10:22:24 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] |Initializing Spring embedded WebApplicationContext
+2020-10-06 10:22:24 |INFO  |main |ServletWebServerApplicationContext.java:284 |org.springframework.web.context.ContextLoader |Root WebApplicationContext: initialization completed in 1987 ms
+2020-10-06 10:22:24 |INFO  |main |SentinelWebAutoConfiguration.java:96 |com.alibaba.cloud.sentinel.SentinelWebAutoConfiguration |[Sentinel Starter] register Sentinel CommonFilter with urlPatterns: [/*].
+2020-10-06 10:22:26 |INFO  |main |PropertySourcedRequestMappingHandlerMapping.java:69 |springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping |Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-06 10:22:26 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-06 10:22:26 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-06 10:22:26 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor |Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-06 10:22:26 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler |Initializing ExecutorService
+2020-10-06 10:22:27 |INFO  |main |EpollProvider.java:68 |io.lettuce.core.EpollProvider |Starting without optional epoll library
+2020-10-06 10:22:27 |INFO  |main |KqueueProvider.java:70 |io.lettuce.core.KqueueProvider |Starting without optional kqueue library
+2020-10-06 10:22:29 |INFO  |main |DocumentationPluginsBootstrapper.java:147 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Context refreshed
+2020-10-06 10:22:29 |INFO  |main |DocumentationPluginsBootstrapper.java:150 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Found 2 custom documentation plugin(s)
+2020-10-06 10:22:29 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-06 10:22:29 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-06 10:22:30 |INFO  |main |ScheduledAnnotationBeanPostProcessor.java:297 |org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor |No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-10-06 10:22:30 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Starting ProtocolHandler ["http-nio-8160"]
+2020-10-06 10:22:30 |INFO  |main |TomcatWebServer.java:204 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat started on port(s): 8160 (http) with context path ''
+2020-10-06 10:22:30 |INFO  |main |NacosServiceRegistry.java:62 |com.alibaba.cloud.nacos.registry.NacosServiceRegistry |nacos registry, service-ucenter 192.168.0.101:8160 register finished
+2020-10-06 10:22:30 |INFO  |main |StartupInfoLogger.java:61 |com.bai.guli.service.ucenter.UcenterServiceApplication |Started UcenterServiceApplication in 11.138 seconds (JVM running for 12.352)
+2020-10-06 10:23:08 |INFO  |http-nio-8160-exec-1 |DirectJDKLog.java:173 |org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] |Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-06 10:23:08 |INFO  |http-nio-8160-exec-1 |FrameworkServlet.java:525 |org.springframework.web.servlet.DispatcherServlet |Initializing Servlet 'dispatcherServlet'
+2020-10-06 10:23:08 |INFO  |http-nio-8160-exec-1 |FrameworkServlet.java:547 |org.springframework.web.servlet.DispatcherServlet |Completed initialization in 10 ms
+2020-10-06 10:23:08 |INFO  |http-nio-8160-exec-1 |HikariDataSource.java:110 |com.zaxxer.hikari.HikariDataSource |HikariPool-1 - Starting...
+2020-10-06 10:23:08 |INFO  |http-nio-8160-exec-1 |HikariDataSource.java:123 |com.zaxxer.hikari.HikariDataSource |HikariPool-1 - Start completed.
+2020-10-06 22:49:30 |INFO  |main |SpringApplication.java:655 |com.bai.guli.service.ucenter.UcenterServiceApplication |The following profiles are active: dev
+2020-10-06 22:49:31 |INFO  |main |RepositoryConfigurationDelegate.java:249 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-06 22:49:31 |INFO  |main |RepositoryConfigurationDelegate.java:127 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-06 22:49:31 |INFO  |main |RepositoryConfigurationDelegate.java:187 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020-10-06 22:49:31 |INFO  |main |GenericScope.java:295 |org.springframework.cloud.context.scope.GenericScope |BeanFactory id=a0e80641-133a-3ee5-b559-bae2b8b2efca
+2020-10-06 22:49:32 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 22:49:32 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 22:49:32 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$9b5e3dc2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 22:49:32 |INFO  |main |TomcatWebServer.java:92 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat initialized with port(s): 8160 (http)
+2020-10-06 22:49:32 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Initializing ProtocolHandler ["http-nio-8160"]
+2020-10-06 22:49:32 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardService |Starting service [Tomcat]
+2020-10-06 22:49:32 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardEngine |Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-10-06 22:49:32 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-10-06 22:49:32 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-10-06 22:49:32 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-10-06 22:49:32 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-10-06 22:49:32 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-10-06 22:49:32 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] |Initializing Spring embedded WebApplicationContext
+2020-10-06 22:49:32 |INFO  |main |ServletWebServerApplicationContext.java:284 |org.springframework.web.context.ContextLoader |Root WebApplicationContext: initialization completed in 2331 ms
+2020-10-06 22:49:32 |INFO  |main |SentinelWebAutoConfiguration.java:96 |com.alibaba.cloud.sentinel.SentinelWebAutoConfiguration |[Sentinel Starter] register Sentinel CommonFilter with urlPatterns: [/*].
+2020-10-06 22:49:34 |INFO  |main |PropertySourcedRequestMappingHandlerMapping.java:69 |springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping |Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-06 22:49:34 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-06 22:49:34 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-06 22:49:34 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor |Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-06 22:49:35 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler |Initializing ExecutorService
+2020-10-06 22:49:35 |INFO  |main |EpollProvider.java:68 |io.lettuce.core.EpollProvider |Starting without optional epoll library
+2020-10-06 22:49:35 |INFO  |main |KqueueProvider.java:70 |io.lettuce.core.KqueueProvider |Starting without optional kqueue library
+2020-10-06 22:49:37 |INFO  |main |DocumentationPluginsBootstrapper.java:147 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Context refreshed
+2020-10-06 22:49:37 |INFO  |main |DocumentationPluginsBootstrapper.java:150 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Found 2 custom documentation plugin(s)
+2020-10-06 22:49:37 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-06 22:49:38 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-06 22:49:38 |INFO  |main |ScheduledAnnotationBeanPostProcessor.java:297 |org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor |No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-10-06 22:49:38 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Starting ProtocolHandler ["http-nio-8160"]
+2020-10-06 22:49:38 |INFO  |main |TomcatWebServer.java:204 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat started on port(s): 8160 (http) with context path ''
+2020-10-06 22:49:38 |INFO  |main |NacosServiceRegistry.java:62 |com.alibaba.cloud.nacos.registry.NacosServiceRegistry |nacos registry, service-ucenter 192.168.0.101:8160 register finished
+2020-10-06 22:49:39 |INFO  |main |StartupInfoLogger.java:61 |com.bai.guli.service.ucenter.UcenterServiceApplication |Started UcenterServiceApplication in 11.412 seconds (JVM running for 12.445)
+2020-10-06 22:53:37 |INFO  |http-nio-8160-exec-1 |DirectJDKLog.java:173 |org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] |Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-06 22:53:37 |INFO  |http-nio-8160-exec-1 |FrameworkServlet.java:525 |org.springframework.web.servlet.DispatcherServlet |Initializing Servlet 'dispatcherServlet'
+2020-10-06 22:53:37 |INFO  |http-nio-8160-exec-1 |FrameworkServlet.java:547 |org.springframework.web.servlet.DispatcherServlet |Completed initialization in 11 ms
+2020-10-06 22:57:25 |INFO  |http-nio-8160-exec-1 |HikariDataSource.java:110 |com.zaxxer.hikari.HikariDataSource |HikariPool-1 - Starting...
+2020-10-06 22:57:25 |INFO  |http-nio-8160-exec-1 |HikariDataSource.java:123 |com.zaxxer.hikari.HikariDataSource |HikariPool-1 - Start completed.
+2020-10-07 13:43:05 |INFO  |main |SpringApplication.java:655 |com.bai.guli.service.ucenter.UcenterServiceApplication |The following profiles are active: dev
+2020-10-07 13:43:06 |INFO  |main |RepositoryConfigurationDelegate.java:249 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-07 13:43:06 |INFO  |main |RepositoryConfigurationDelegate.java:127 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-07 13:43:06 |INFO  |main |RepositoryConfigurationDelegate.java:187 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2020-10-07 13:43:07 |INFO  |main |GenericScope.java:295 |org.springframework.cloud.context.scope.GenericScope |BeanFactory id=a0e80641-133a-3ee5-b559-bae2b8b2efca
+2020-10-07 13:43:07 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-07 13:43:07 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-07 13:43:07 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$c37d5b62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-07 13:43:07 |INFO  |main |TomcatWebServer.java:92 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat initialized with port(s): 8160 (http)
+2020-10-07 13:43:07 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Initializing ProtocolHandler ["http-nio-8160"]
+2020-10-07 13:43:07 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardService |Starting service [Tomcat]
+2020-10-07 13:43:07 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardEngine |Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-10-07 13:43:07 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-10-07 13:43:07 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-10-07 13:43:07 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-10-07 13:43:07 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-10-07 13:43:07 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-10-07 13:43:07 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] |Initializing Spring embedded WebApplicationContext
+2020-10-07 13:43:07 |INFO  |main |ServletWebServerApplicationContext.java:284 |org.springframework.web.context.ContextLoader |Root WebApplicationContext: initialization completed in 2115 ms
+2020-10-07 13:43:07 |INFO  |main |SentinelWebAutoConfiguration.java:96 |com.alibaba.cloud.sentinel.SentinelWebAutoConfiguration |[Sentinel Starter] register Sentinel CommonFilter with urlPatterns: [/*].
+2020-10-07 13:43:09 |INFO  |main |PropertySourcedRequestMappingHandlerMapping.java:69 |springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping |Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-07 13:43:09 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-07 13:43:09 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-07 13:43:09 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor |Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-07 13:43:10 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler |Initializing ExecutorService
+2020-10-07 13:43:10 |INFO  |main |EpollProvider.java:68 |io.lettuce.core.EpollProvider |Starting without optional epoll library
+2020-10-07 13:43:10 |INFO  |main |KqueueProvider.java:70 |io.lettuce.core.KqueueProvider |Starting without optional kqueue library
+2020-10-07 13:43:12 |INFO  |main |DocumentationPluginsBootstrapper.java:147 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Context refreshed
+2020-10-07 13:43:12 |INFO  |main |DocumentationPluginsBootstrapper.java:150 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Found 2 custom documentation plugin(s)
+2020-10-07 13:43:12 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-07 13:43:12 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-07 13:43:12 |INFO  |main |ScheduledAnnotationBeanPostProcessor.java:297 |org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor |No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-10-07 13:43:13 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Starting ProtocolHandler ["http-nio-8160"]
+2020-10-07 13:43:13 |INFO  |main |TomcatWebServer.java:204 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat started on port(s): 8160 (http) with context path ''
+2020-10-07 13:43:13 |INFO  |main |NacosServiceRegistry.java:62 |com.alibaba.cloud.nacos.registry.NacosServiceRegistry |nacos registry, service-ucenter 192.168.0.101:8160 register finished
+2020-10-07 13:43:13 |INFO  |main |StartupInfoLogger.java:61 |com.bai.guli.service.ucenter.UcenterServiceApplication |Started UcenterServiceApplication in 10.235 seconds (JVM running for 11.906)
+2020-10-07 14:08:48 |INFO  |http-nio-8160-exec-1 |DirectJDKLog.java:173 |org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] |Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-07 14:08:48 |INFO  |http-nio-8160-exec-1 |FrameworkServlet.java:525 |org.springframework.web.servlet.DispatcherServlet |Initializing Servlet 'dispatcherServlet'
+2020-10-07 14:08:48 |INFO  |http-nio-8160-exec-1 |FrameworkServlet.java:547 |org.springframework.web.servlet.DispatcherServlet |Completed initialization in 13 ms
+2020-10-07 14:10:02 |INFO  |http-nio-8160-exec-3 |HikariDataSource.java:110 |com.zaxxer.hikari.HikariDataSource |HikariPool-1 - Starting...
+2020-10-07 14:10:02 |INFO  |http-nio-8160-exec-3 |HikariDataSource.java:123 |com.zaxxer.hikari.HikariDataSource |HikariPool-1 - Start completed.
+2020-10-08 10:21:38 |INFO  |main |SpringApplication.java:655 |com.bai.guli.service.ucenter.UcenterServiceApplication |The following profiles are active: dev
+2020-10-08 10:21:39 |INFO  |main |RepositoryConfigurationDelegate.java:249 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-08 10:21:39 |INFO  |main |RepositoryConfigurationDelegate.java:127 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-08 10:21:39 |INFO  |main |RepositoryConfigurationDelegate.java:187 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-10-08 10:21:39 |INFO  |main |GenericScope.java:295 |org.springframework.cloud.context.scope.GenericScope |BeanFactory id=a0e80641-133a-3ee5-b559-bae2b8b2efca
+2020-10-08 10:21:40 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-08 10:21:40 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-08 10:21:40 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$df89c339] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-08 10:21:40 |INFO  |main |TomcatWebServer.java:92 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat initialized with port(s): 8160 (http)
+2020-10-08 10:21:40 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Initializing ProtocolHandler ["http-nio-8160"]
+2020-10-08 10:21:40 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardService |Starting service [Tomcat]
+2020-10-08 10:21:40 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardEngine |Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-10-08 10:21:40 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-10-08 10:21:40 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-10-08 10:21:40 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-10-08 10:21:40 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-10-08 10:21:40 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-10-08 10:21:40 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] |Initializing Spring embedded WebApplicationContext
+2020-10-08 10:21:40 |INFO  |main |ServletWebServerApplicationContext.java:284 |org.springframework.web.context.ContextLoader |Root WebApplicationContext: initialization completed in 1892 ms
+2020-10-08 10:21:40 |INFO  |main |SentinelWebAutoConfiguration.java:96 |com.alibaba.cloud.sentinel.SentinelWebAutoConfiguration |[Sentinel Starter] register Sentinel CommonFilter with urlPatterns: [/*].
+2020-10-08 10:21:42 |INFO  |main |PropertySourcedRequestMappingHandlerMapping.java:69 |springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping |Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-08 10:21:42 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-08 10:21:42 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-08 10:21:42 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor |Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-08 10:21:43 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler |Initializing ExecutorService
+2020-10-08 10:21:43 |INFO  |main |EpollProvider.java:68 |io.lettuce.core.EpollProvider |Starting without optional epoll library
+2020-10-08 10:21:43 |INFO  |main |KqueueProvider.java:70 |io.lettuce.core.KqueueProvider |Starting without optional kqueue library
+2020-10-08 10:21:44 |INFO  |main |DocumentationPluginsBootstrapper.java:147 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Context refreshed
+2020-10-08 10:21:44 |INFO  |main |DocumentationPluginsBootstrapper.java:150 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Found 2 custom documentation plugin(s)
+2020-10-08 10:21:44 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-08 10:21:45 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-08 10:21:45 |INFO  |main |ScheduledAnnotationBeanPostProcessor.java:297 |org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor |No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-10-08 10:21:45 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Starting ProtocolHandler ["http-nio-8160"]
+2020-10-08 10:21:45 |INFO  |main |TomcatWebServer.java:204 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat started on port(s): 8160 (http) with context path ''
+2020-10-08 10:21:45 |INFO  |main |NacosServiceRegistry.java:62 |com.alibaba.cloud.nacos.registry.NacosServiceRegistry |nacos registry, service-ucenter 192.168.0.101:8160 register finished
+2020-10-08 10:21:46 |INFO  |main |StartupInfoLogger.java:61 |com.bai.guli.service.ucenter.UcenterServiceApplication |Started UcenterServiceApplication in 10.04 seconds (JVM running for 11.678)
+2020-10-08 13:31:36 |INFO  |main |SpringApplication.java:655 |com.bai.guli.service.ucenter.UcenterServiceApplication |The following profiles are active: dev
+2020-10-08 13:31:38 |INFO  |main |RepositoryConfigurationDelegate.java:249 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-08 13:31:38 |INFO  |main |RepositoryConfigurationDelegate.java:127 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-08 13:31:38 |INFO  |main |RepositoryConfigurationDelegate.java:187 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+2020-10-08 13:31:38 |INFO  |main |GenericScope.java:295 |org.springframework.cloud.context.scope.GenericScope |BeanFactory id=a0e80641-133a-3ee5-b559-bae2b8b2efca
+2020-10-08 13:31:38 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-08 13:31:38 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-08 13:31:39 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$1c7cdf16] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-08 13:31:39 |INFO  |main |TomcatWebServer.java:92 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat initialized with port(s): 8160 (http)
+2020-10-08 13:31:39 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Initializing ProtocolHandler ["http-nio-8160"]
+2020-10-08 13:31:39 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardService |Starting service [Tomcat]
+2020-10-08 13:31:39 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardEngine |Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-10-08 13:31:39 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-10-08 13:31:39 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-10-08 13:31:39 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-10-08 13:31:39 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-10-08 13:31:39 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-10-08 13:31:39 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] |Initializing Spring embedded WebApplicationContext
+2020-10-08 13:31:40 |INFO  |main |ServletWebServerApplicationContext.java:284 |org.springframework.web.context.ContextLoader |Root WebApplicationContext: initialization completed in 3455 ms
+2020-10-08 13:31:40 |INFO  |main |SentinelWebAutoConfiguration.java:96 |com.alibaba.cloud.sentinel.SentinelWebAutoConfiguration |[Sentinel Starter] register Sentinel CommonFilter with urlPatterns: [/*].
+2020-10-08 13:31:41 |INFO  |main |PropertySourcedRequestMappingHandlerMapping.java:69 |springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping |Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-08 13:31:41 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-08 13:31:41 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-08 13:31:42 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor |Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-08 13:31:44 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler |Initializing ExecutorService
+2020-10-08 13:31:44 |INFO  |main |EpollProvider.java:68 |io.lettuce.core.EpollProvider |Starting without optional epoll library
+2020-10-08 13:31:44 |INFO  |main |KqueueProvider.java:70 |io.lettuce.core.KqueueProvider |Starting without optional kqueue library
+2020-10-08 13:31:48 |INFO  |main |DocumentationPluginsBootstrapper.java:147 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Context refreshed
+2020-10-08 13:31:48 |INFO  |main |DocumentationPluginsBootstrapper.java:150 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Found 2 custom documentation plugin(s)
+2020-10-08 13:31:48 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-08 13:31:48 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-08 13:31:49 |INFO  |main |ScheduledAnnotationBeanPostProcessor.java:297 |org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor |No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-10-08 13:31:49 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Starting ProtocolHandler ["http-nio-8160"]
+2020-10-08 13:31:49 |INFO  |main |TomcatWebServer.java:204 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat started on port(s): 8160 (http) with context path ''
+2020-10-08 13:31:49 |INFO  |main |NacosServiceRegistry.java:62 |com.alibaba.cloud.nacos.registry.NacosServiceRegistry |nacos registry, service-ucenter 192.168.0.101:8160 register finished
+2020-10-08 13:31:50 |INFO  |main |StartupInfoLogger.java:61 |com.bai.guli.service.ucenter.UcenterServiceApplication |Started UcenterServiceApplication in 17.846 seconds (JVM running for 19.721)
+2020-10-08 13:36:12 |INFO  |main |SpringApplication.java:655 |com.bai.guli.service.ucenter.UcenterServiceApplication |The following profiles are active: dev
+2020-10-08 13:36:12 |INFO  |main |RepositoryConfigurationDelegate.java:249 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-08 13:36:12 |INFO  |main |RepositoryConfigurationDelegate.java:127 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-08 13:36:12 |INFO  |main |RepositoryConfigurationDelegate.java:187 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2020-10-08 13:36:13 |INFO  |main |GenericScope.java:295 |org.springframework.cloud.context.scope.GenericScope |BeanFactory id=a0e80641-133a-3ee5-b559-bae2b8b2efca
+2020-10-08 13:36:13 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-08 13:36:13 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-08 13:36:14 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$c029edbd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-08 13:36:14 |INFO  |main |TomcatWebServer.java:92 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat initialized with port(s): 8160 (http)
+2020-10-08 13:36:14 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Initializing ProtocolHandler ["http-nio-8160"]
+2020-10-08 13:36:14 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardService |Starting service [Tomcat]
+2020-10-08 13:36:14 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardEngine |Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-10-08 13:36:14 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-10-08 13:36:14 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-10-08 13:36:14 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-10-08 13:36:14 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-10-08 13:36:14 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-10-08 13:36:14 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] |Initializing Spring embedded WebApplicationContext
+2020-10-08 13:36:14 |INFO  |main |ServletWebServerApplicationContext.java:284 |org.springframework.web.context.ContextLoader |Root WebApplicationContext: initialization completed in 2851 ms
+2020-10-08 13:36:14 |INFO  |main |SentinelWebAutoConfiguration.java:96 |com.alibaba.cloud.sentinel.SentinelWebAutoConfiguration |[Sentinel Starter] register Sentinel CommonFilter with urlPatterns: [/*].
+2020-10-08 13:36:17 |INFO  |main |PropertySourcedRequestMappingHandlerMapping.java:69 |springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping |Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-08 13:36:17 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-08 13:36:17 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-08 13:36:18 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor |Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-08 13:36:18 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler |Initializing ExecutorService
+2020-10-08 13:36:19 |INFO  |main |EpollProvider.java:68 |io.lettuce.core.EpollProvider |Starting without optional epoll library
+2020-10-08 13:36:19 |INFO  |main |KqueueProvider.java:70 |io.lettuce.core.KqueueProvider |Starting without optional kqueue library
+2020-10-08 13:36:20 |INFO  |main |DocumentationPluginsBootstrapper.java:147 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Context refreshed
+2020-10-08 13:36:20 |INFO  |main |DocumentationPluginsBootstrapper.java:150 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Found 2 custom documentation plugin(s)
+2020-10-08 13:36:20 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-08 13:36:21 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-08 13:36:21 |INFO  |main |ScheduledAnnotationBeanPostProcessor.java:297 |org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor |No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-10-08 13:36:21 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Starting ProtocolHandler ["http-nio-8160"]
+2020-10-08 13:36:21 |INFO  |main |TomcatWebServer.java:204 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat started on port(s): 8160 (http) with context path ''
+2020-10-08 13:36:21 |INFO  |main |NacosServiceRegistry.java:62 |com.alibaba.cloud.nacos.registry.NacosServiceRegistry |nacos registry, service-ucenter 192.168.0.101:8160 register finished
+2020-10-08 13:36:22 |INFO  |main |StartupInfoLogger.java:61 |com.bai.guli.service.ucenter.UcenterServiceApplication |Started UcenterServiceApplication in 12.957 seconds (JVM running for 14.234)
+2020-10-08 13:38:52 |INFO  |main |SpringApplication.java:655 |com.bai.guli.service.ucenter.UcenterServiceApplication |The following profiles are active: dev
+2020-10-08 13:38:53 |INFO  |main |RepositoryConfigurationDelegate.java:249 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-08 13:38:53 |INFO  |main |RepositoryConfigurationDelegate.java:127 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-08 13:38:53 |INFO  |main |RepositoryConfigurationDelegate.java:187 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020-10-08 13:38:53 |INFO  |main |GenericScope.java:295 |org.springframework.cloud.context.scope.GenericScope |BeanFactory id=a0e80641-133a-3ee5-b559-bae2b8b2efca
+2020-10-08 13:38:53 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-08 13:38:53 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-08 13:38:53 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$ad7c0665] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-08 13:38:54 |INFO  |main |TomcatWebServer.java:92 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat initialized with port(s): 8160 (http)
+2020-10-08 13:38:54 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Initializing ProtocolHandler ["http-nio-8160"]
+2020-10-08 13:38:54 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardService |Starting service [Tomcat]
+2020-10-08 13:38:54 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardEngine |Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-10-08 13:38:54 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-10-08 13:38:54 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-10-08 13:38:54 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-10-08 13:38:54 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-10-08 13:38:54 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-10-08 13:38:54 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] |Initializing Spring embedded WebApplicationContext
+2020-10-08 13:38:54 |INFO  |main |ServletWebServerApplicationContext.java:284 |org.springframework.web.context.ContextLoader |Root WebApplicationContext: initialization completed in 2707 ms
+2020-10-08 13:38:54 |INFO  |main |SentinelWebAutoConfiguration.java:96 |com.alibaba.cloud.sentinel.SentinelWebAutoConfiguration |[Sentinel Starter] register Sentinel CommonFilter with urlPatterns: [/*].
+2020-10-08 13:38:57 |INFO  |main |PropertySourcedRequestMappingHandlerMapping.java:69 |springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping |Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-08 13:38:57 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-08 13:38:57 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-08 13:38:57 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor |Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-08 13:38:58 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler |Initializing ExecutorService
+2020-10-08 13:38:58 |INFO  |main |EpollProvider.java:68 |io.lettuce.core.EpollProvider |Starting without optional epoll library
+2020-10-08 13:38:58 |INFO  |main |KqueueProvider.java:70 |io.lettuce.core.KqueueProvider |Starting without optional kqueue library
+2020-10-08 13:39:01 |INFO  |main |DocumentationPluginsBootstrapper.java:147 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Context refreshed
+2020-10-08 13:39:01 |INFO  |main |DocumentationPluginsBootstrapper.java:150 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Found 2 custom documentation plugin(s)
+2020-10-08 13:39:01 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-08 13:39:01 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-08 13:39:02 |INFO  |main |ScheduledAnnotationBeanPostProcessor.java:297 |org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor |No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-10-08 13:39:02 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Starting ProtocolHandler ["http-nio-8160"]
+2020-10-08 13:39:02 |INFO  |main |TomcatWebServer.java:204 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat started on port(s): 8160 (http) with context path ''
+2020-10-08 13:39:02 |INFO  |main |NacosServiceRegistry.java:62 |com.alibaba.cloud.nacos.registry.NacosServiceRegistry |nacos registry, service-ucenter 192.168.0.101:8160 register finished
+2020-10-08 13:39:03 |INFO  |main |StartupInfoLogger.java:61 |com.bai.guli.service.ucenter.UcenterServiceApplication |Started UcenterServiceApplication in 14.189 seconds (JVM running for 15.778)
+2020-10-08 19:07:41 |INFO  |http-nio-8160-exec-1 |DirectJDKLog.java:173 |org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] |Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-08 19:07:41 |INFO  |http-nio-8160-exec-1 |FrameworkServlet.java:525 |org.springframework.web.servlet.DispatcherServlet |Initializing Servlet 'dispatcherServlet'
+2020-10-08 19:07:41 |INFO  |http-nio-8160-exec-1 |FrameworkServlet.java:547 |org.springframework.web.servlet.DispatcherServlet |Completed initialization in 47 ms
+2020-10-08 19:07:41 |INFO  |http-nio-8160-exec-1 |HikariDataSource.java:110 |com.zaxxer.hikari.HikariDataSource |HikariPool-1 - Starting...
+2020-10-08 19:07:41 |INFO  |http-nio-8160-exec-1 |HikariDataSource.java:123 |com.zaxxer.hikari.HikariDataSource |HikariPool-1 - Start completed.
